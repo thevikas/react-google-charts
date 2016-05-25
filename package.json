@@ -4,6 +4,7 @@
   "description": "react-google-charts React component",
   "main": "lib/index.js",
   "scripts": {
+    "deploy": "gh-pages-deploy",
     "build": "nwb build",
     "clean": "nwb clean",
     "start": "nwb serve",
@@ -23,8 +24,11 @@
     "jsdoc": "^3.4.0",
     "nwb": "0.8.x",
     "react": "15.0.x",
-    "react-router": "^2.4.1",
-    "react-dom": "15.0.x"
+    "react-dom": "15.0.x",
+    "react-router": "^2.4.1"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "demo/dist/"
   },
   "author": "",
   "homepage": "",
